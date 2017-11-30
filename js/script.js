@@ -6,4 +6,10 @@ $(document).ready(function () {
 
     });
 
+    $('select').niceSelect();
+
+    $('#myTab').jqTabs({
+        direction: 'horizontal'
+    });
+
 });
