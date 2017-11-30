@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="slick/slick-theme.css">
     <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="jquery-nice-select-1.1.0/css/nice-select.css">
+    <link rel="stylesheet" href="Vertical-Horizontal-Tabs-jQuery-jQuery-Tabs/dist/jquery.tabs.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -74,9 +76,36 @@
     </div>
 
 </div>
+<select>
+    <option data-display="Select">Nothing</option>
+    <option value="1">Some option</option>
+    <option value="2">Another option</option>
+    <option value="3" disabled>A disabled option</option>
+    <option value="4">Potato</option>
+</select>
 
+<div class="jq-tab-wrapper" id="myTab">
+    <div class="jq-tab-menu">
+        <div class="jq-tab-title active" data-tab="1">Tab 1</div>
+        <div class="jq-tab-title" data-tab="2">Tab 2</div>
+        <div class="jq-tab-title" data-tab="3">Tab 3</div>
+    </div>
+    <div class="jq-tab-content-wrapper">
+        <div class="jq-tab-content active" data-tab="1">
+            Tab 1 content here
+        </div>
+        <div class="jq-tab-content active" data-tab="2">
+            Tab 2 content here
+        </div>
+        <div class="jq-tab-content active" data-tab="3">
+            Tab 3 content here
+        </div>
+    </div>
+</div>
 </body>
 <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript" src="jquery-nice-select-1.1.0/js/jquery.nice-select.js"></script>
+<script type="text/javascript" src="Vertical-Horizontal-Tabs-jQuery-jQuery-Tabs/dist/jquery.tabs.min.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 </html>
