@@ -1,7 +1,9 @@
 $(document).ready(function () {
-  $('.single-item').slick({
- adaptiveHeight:true
+    $('.slider').slick({
+        adaptiveHeight: true,
+        dots: true
+        // dotsClass: 'slider-dots'
 
-  });
+    });
 
 });

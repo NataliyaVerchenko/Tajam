@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Hammersmith+One|Playfair+Display:400,700|Roboto');
+
 /*
 
 
@@ -11,53 +12,64 @@
 
 
 */
-.body{
-    margin:0;
+.body {
+    margin: 0;
 }
+
 *, ::after, ::before {
     box-sizing: border-box;
 }
+
 .container {
     max-width: 960px;
     margin: 0 auto;
 }
 
-.main-wrapper{
-background: url('../img/banner.png') no-repeat center;
-background-size: cover;
+.main-wrapper {
+    background: url('../img/banner.png') no-repeat center;
+    background-size: cover;
 }
-.main-wrapper-overlay{
-background: url('../img/l2.png') no-repeat center;
-background-size: cover;
-opacity: 0.7;
-}
-.items{
-    padding:70px 0 30px  0;
-    text-align: center;
-}
-.single-item h1,.single-item p,.single-item button,{
 
+.main-wrapper-overlay {
+    background: url('../img/l2.png') no-repeat center;
+    background-size: cover;
+    opacity: 0.7;
 }
-.single-item__title-h1{
-color: #ffffff;
-font-family: 'Playfair Display', serif;
- font-size: 32px;
- font-weight: 400;
- }
- .single-item__content{
- color: #ffffff;
- font-family: 'Roboto', sans-serif;
- font-size: 14px;
- font-weight: 300;
- line-height: 24px;
- }
- .single-item__button button{
- width:120px;
-background: #b9b9b900;
-border: 2px solid #00e0d0;
-padding:10px 0;
- color: #00e0d0;
- font-family: 'Hammersmith One', sans-serif;
- font-size: 16px;
- font-weight: 400;
- text-transform: uppercase;}
+
+.slider {
+    padding: 70px 0 120px 0;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.slider-item__title-h1 {
+    color: #ffffff;
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.slider-item__content {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+.slider-item__button button {
+    width: 120px;
+    background: #b9b9b900;
+    border: 2px solid #00e0d0;
+    padding: 10px 0;
+    color: #00e0d0;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.slick-dots {
+    bottom: 0;
+}
+
