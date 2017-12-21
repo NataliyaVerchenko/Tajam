@@ -1,8 +1,9 @@
 $(document).ready(function () {
     $('.slider').slick({
         adaptiveHeight: true,
-        dots: true
-        // dotsClass: 'slider-dots'
+        dots: true,
+        arrows:false
+        /*dotsClass:'slider-dots'*/
 
     });
 
