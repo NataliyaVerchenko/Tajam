@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Plugin select i tab</title>
+</head>
+<body>
+<select>
+    <option data-display="Select">Nothing</option>
+    <option value="1">Some option</option>
+    <option value="2">Another option</option>
+    <option value="3" disabled>A disabled option</option>
+    <option value="4">Potato</option>
+</select>
+
+<div class="jq-tab-wrapper" id="myTab">
+    <div class="jq-tab-menu">
+        <div class="jq-tab-title active" data-tab="1">Tab 1</div>
+        <div class="jq-tab-title" data-tab="2">Tab 2</div>
+        <div class="jq-tab-title" data-tab="3">Tab 3</div>
+    </div>
+    <div class="jq-tab-content-wrapper">
+        <div class="jq-tab-content active" data-tab="1">
+            <div class="img-wrapper">
+                <div class="img-wrapper__item">
+                    <img src="http://i0.kym-cdn.com/entries/icons/original/000/007/263/photo_cat2.jpg" alt="">
+                    <i class="plus"></i>
+                </div>
+            </div>
+        </div>
+        <div class="jq-tab-content active" data-tab="2">
+            <img src="https://s-media-cache-ak0.pinimg.com/originals/e3/f8/2a/e3f82a572ba3c8a496ebffc40d167430.png" alt="">
+        </div>
+        <div class="jq-tab-content active" data-tab="3">
+            <img src="img/logo.png" alt="">
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
