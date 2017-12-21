@@ -3,7 +3,7 @@ $(document).ready(function () {
         adaptiveHeight: true,
         dots: true,
         arrows:false
-        /*dotsClass:'slider-dots'*/
+
 
     });
 
