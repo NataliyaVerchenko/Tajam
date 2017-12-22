@@ -6,6 +6,11 @@ $(document).ready(function () {
 
 
     });
+    $('.button-toogle').click(function () {
+        $('.nav').fadeToggle('.active-menu')
+
+
+    });
 
     $('select').niceSelect();
 
