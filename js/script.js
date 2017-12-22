@@ -7,15 +7,10 @@ $(document).ready(function () {
 
     });
     $('.button-toogle').click(function () {
-        $('.nav').fadeToggle('.active-menu')
+        $('.nav').fadeToggle()
 
 
     });
 
-    $('select').niceSelect();
-
-    $('#myTab').jqTabs({
-        direction: 'horizontal'
-    });
 
 });
