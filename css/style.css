@@ -427,6 +427,7 @@ button.button-toogle {
 .section-title-wrapper {
     text-align: center;
     position: relative;
+    padding: 20px 0;
 }
 
 .section-title-wrapper:after {
@@ -455,6 +456,9 @@ button.button-toogle {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 20px 0;
+    margin: 0 20px;
+    position: relative;
 }
 
 .section-content-item {
@@ -524,22 +528,168 @@ button.button-toogle {
 }
 
 .item-icon:hover {
-    border-radius:50% ;
-    box-shadow: 3px 3px 15px 2px rgba(116,214,194,0.28);
+    border-radius: 50%;
+    box-shadow: 3px 3px 15px 2px rgba(116, 214, 194, 0.28);
 
 }
 
 /*TEAAM*/
-.team{
+.team {
     position: relative;
-
-    background: url("../img/team-bg.png")no-repeat center;
-
-   /* background-attachment: fixed;*/
+    background: url("../img/team-bg.png") no-repeat center;
+    padding: 70px 0;
+    /*  background-attachment: fixed;*/
+    z-index: -5;
 }
-.team:before{
+
+.team:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+    background: rgba(61, 32, 86, 0.82);
 
 }
+
+.team .section-title h2, .team .section-title-descr {
+    color: white;
+}
+
+.team .section-title-wrapper:after {
+    background: rgba(255, 255, 255, 0.71);
+}
+
+.list-cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.list-cards li {
+    margin: 0 5px;
+
+}
+
+.card-img {
+    width: 220px;
+    height: 230px;
+    background: white;
+}
+
+.card-title {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    /* text-transform: uppercase;*/
+    /* Text style for "S, EMF UCU" */
+    letter-spacing: 0.7px;
+    padding-bottom: 5px;
+
+}
+
+.card-content {
+    opacity: 0.7;
+    color: #fafafa;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 300;
+    padding-top: 5px;
+    /*text-transform: uppercase;*/
+
+}
+
+.card-bottom {
+    border: 1px solid rgba(255, 255, 255, 0.59);
+    border-top: none;
+    padding: 20px 5px;
+    border-radius: 1px;
+}
+
+.section-bottom-wrapper {
+    position: relative;
+    text-align: center;
+}
+
+.section-bottom-wrapper p {
+    padding: 20px 0;
+    color: white;
+
+}
+
+/*OUR WORK*/
+.our-work {
+    padding: 70px 0;
+    text-align: center;
+
+}
+
+.our-work-top {
+    padding-bottom: 40px;
+}
+
+.our-work-top__right {
+    float: left;
+    color: #413d4b;
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "O, UR WORK" */
+    letter-spacing: 1.1px;
+}
+
+.our-work-top__left {
+    float: right;
+    color: #413d4b;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    /* Text style for "See All Pr" */
+    letter-spacing: 0.7px;
+}
+.our-work-top__left:after{
+   content:'>';
+    font-size: 16px;
+}
+.our-work-content{
+    padding: 30px 0;
+}
+.list-portfolio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+   /* background: #cccccc94;*/
+}
+.list-portfolio li{
+
+}
+.list-portfolio li a{
+    display: block;
+}
+.list-portfolio li a img{
+    display: inline-block;
+    width: 267px;
+    height: 200px;
+    background: #ccc;
+
+
+
+}
+.list-portfolio li:nth-last-child(2n+1) a img{
+    background: #a3a3a3;
+}
+.list-portfolio li:nth-last-child(3n+0) a img{
+    background: #ebebeb;
+}
+
 
 
 
