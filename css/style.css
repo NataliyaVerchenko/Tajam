@@ -274,7 +274,7 @@ button.button-toogle {
 }
 
 .section-info__presentation p {
-    padding: 0 15px 20px;
+    padding: 15px 0;
     color: #413d4b;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -284,7 +284,7 @@ button.button-toogle {
 }
 
 .section-info__button {
-    padding: 0 15px 20px;
+    padding: 15px 0;
 }
 
 /*SECTION OUR-STORY*/
